@@ -1,3 +1,103 @@
-h1 {
-  color: salmon;
+
+/*body, div{
+	border:1px solid;
+}*/
+
+
+
+
+h1, h3 {
+	color: black;
+	text-align: center;
 }
+
+.main {
+	position: relative;
+max-width: 810px;
+margin-left: auto;
+margin-right: auto;
+/*text-align: center;*/
+
+
+}
+
+.row1-c, .row2-c {
+	width: 810px;
+	/*margin-left: auto;
+	margin-right: auto;*/
+
+}
+.row1, .row2 {
+    
+    /*border: 1px solid;*/
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	background-size: cover;
+	margin-left: 33px;
+	margin-right: 33px;
+	margin-bottom: 20px;
+}
+
+p {
+	text-align: center;
+	/*position: relative;*/
+	color:white;
+	margin-top: 100px;
+	/*margin-left: 30px;*/
+	font-size: 1.5em;
+	/* the following codes does not work
+
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;*/
+
+}
+
+#oneOne {
+	background-image: url(../img/san-francisco.jpg);
+	float: left;
+}
+
+#oneThree {
+	background-image: url(../img/london.jpg);
+	float: left;
+}
+
+
+#oneTwo {
+	background-image: url(../img/new-york.jpg);
+	float: left;
+
+}
+
+
+
+#twoOne {
+	background-image: url(../img/napa.jpg);
+	float: left;
+}
+#twoTwo {
+	background-image: url(../img/sonoma.jpg);
+	float:left;
+}
+
+#twoThree {
+	background-image: url(../img/san-francisco-2.jpg);
+	float: left;
+}
+
+.button {
+	clear: both;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width:300px;
+	height:50px;
+	font-size: 1.5em;
+	
+
+
+
+}
+
